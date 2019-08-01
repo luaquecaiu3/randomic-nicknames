@@ -38,8 +38,8 @@
 <!-- ========================================================= -->
 </head>
 <body>
-    <div class="header_banner">
-vou inventar um trem legal pra por aqui e vai ser em .js foda-se
+    <div class="header_banner" id="header_banner">
+
     </div>
     <div class="nav_bar">
         <nav>
@@ -53,7 +53,7 @@ vou inventar um trem legal pra por aqui e vai ser em .js foda-se
         </nav>
     </div>
     <div class="display_content">
-<form class="select_form" id="select_form" action="index.js" method="post">
+      <form class="select_form" id="select_form" action="" onsubmit="" method="post">
     <table class="select_table" id="select_table" align="center">
       <thead>
         <tr>
@@ -64,34 +64,33 @@ vou inventar um trem legal pra por aqui e vai ser em .js foda-se
       </thead>
       <tbody>
         <tr>
-          <td id="sexF">Feminino</td>
-          <td id="sobN">Nome</td>
-          <td id="sepE">Espaço</td>
+          <td><input id="sexF" type="button" name="" value="Feminino" onclick="mudarSexF();"></td>
+          <td><input id="sobN" type="button" name="" value="Nome" onclick="mudarSobN();"></td>
+          <td><input id="sepE" type="button" name="" value="Espaço" onclick="mudarSepE();"></td>
         </tr>
           <tr>
-            <td id="sexM">Masculino</td>
-            <td id="sobAm">Adjetivo Amigável</td>
-            <td id="sepS">Sublinhado</td>
+            <td><input id="sexM" type="button" name="" value="Masculino" onclick="mudarSexM();"></td>
+            <td><input id="sobAm" type="button" name="" value="Adjetivo Amigável" onclick="mudarSobAm();"></td>
+            <td><input id="sepS" type="button" name="" value="Sublinhado" onclick="mudarSepS();"></td>
           </tr>
             <tr>
-              <td id="sexU">Unissex</td>
-              <td id="sobAg">Adjetivo Agressivo</td>
-              <td id="sepT">Traço</td>
+              <td><input id="sexU" type="button" name="" value="Unissex" onclick="mudarSexU();"></td>
+              <td><input id="sobAg" type="button" name="" value="Adjetivo Agressivo" onclick="mudarSobAg();"></td>
+              <td><input id="sepT" type="button" name="" value="Traço" onclick="mudarSepT();"></td>
             </tr>
       </tbody>
       <tfoot>
         <tr>
           <th>RESULTADO</th>
-          <th colspan="2" id="result_cell"></th>
+          <th colspan="2"><input id="result_cell" type="text" name="" value="Nome Sobrenome" onclick="copiarNick();" readonly></th>
         </tr>
       </tfoot>
     </table>
+    </form>
   </div>
   <div class="footer_bar">
     lalalalala
   </div>
-
-  </form>
 
 
 

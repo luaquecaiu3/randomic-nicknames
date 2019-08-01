@@ -66,9 +66,16 @@ table{
 
 td, th{
   border-bottom: 1px silver solid;
-  padding: 15px;
 }
 
 td:hover {
   background-color: silver;
+}
+
+.select_form input{
+   padding: 10px 15px 10px 15px;
+}
+
+.select_form input:hover{
+  cursor: pointer;
 }
