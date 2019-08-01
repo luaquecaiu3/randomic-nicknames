@@ -33,52 +33,78 @@
 <!-- jQuery -->
 <script src="js/jquery-2.2.4.min.js"></script>
 <!-- ========================================================= -->
-<title>Randomic Nicks</title>
+<title>Select to Random</title>
 <meta name="description" content="Descrição da página"/>
 <!-- ========================================================= -->
 </head>
 <body>
-
-
-
-
-  <div class="header_banner">
-  vou inventar um trem legal pra por aqui e vai ser em .js foda-se
-  </div>
-  <div class="nav_bar">
-      <nav>
-        <ul>
-          <li><a href="index.html">HOME</a></li>
-          <li><a href="select-options-to-random.html">SELECT TO RANDOM</a></li>
-          <li><a href="#">LINK</a></li>
-          <li><a href="#">LINK</a></li>
-          <li><a href="#">LINK</a></li>
-        </ul>
-      </nav>
-  </div>
-  <div class="display_content">
-    conteúdo
+    <div class="header_banner">
+vou inventar um trem legal pra por aqui e vai ser em .js foda-se
+    </div>
+    <div class="nav_bar">
+        <nav>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="select-options-to-random.html">SELECT TO RANDOM</a></li>
+            <li><a href="#">LINK</a></li>
+            <li><a href="#">LINK</a></li>
+            <li><a href="#">LINK</a></li>
+          </ul>
+        </nav>
+    </div>
+    <div class="display_content">
+<form class="select_form" id="select_form" action="index.js" method="post">
+    <table class="select_table" id="select_table" align="center">
+      <thead>
+        <tr>
+          <th>SEXO</th>
+          <th>SOBRENOME</th>
+          <th>SEPARADOR</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td id="sexF">Feminino</td>
+          <td id="sobN">Nome</td>
+          <td id="sepE">Espaço</td>
+        </tr>
+          <tr>
+            <td id="sexM">Masculino</td>
+            <td id="sobAm">Adjetivo Amigável</td>
+            <td id="sepS">Sublinhado</td>
+          </tr>
+            <tr>
+              <td id="sexU">Unissex</td>
+              <td id="sobAg">Adjetivo Agressivo</td>
+              <td id="sepT">Traço</td>
+            </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>RESULTADO</th>
+          <th colspan="2" id="result_cell"></th>
+        </tr>
+      </tfoot>
+    </table>
   </div>
   <div class="footer_bar">
     lalalalala
   </div>
 
+  </form>
 
 
 
 
 
 
-
-
-
-<!-- ========================================================= -->
-<!-- JS CORE -->
-<script src="js/tether.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<!-- CUSTOM JS -->
-<script src="js/placeholder.js"></script>
-<script src="js/functions.js"></script>
-<!-- ========================================================= -->
-</body>
-</html>
+  <!-- ========================================================= -->
+  <!-- JS CORE -->
+  <script src="js/tether.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- CUSTOM JS -->
+  <script src="js/placeholder.js"></script>
+  <script src="js/functions.js"></script>
+  <!-- ========================================================= -->
+  </body>
+  </html>
