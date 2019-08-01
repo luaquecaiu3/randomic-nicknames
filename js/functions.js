@@ -29,10 +29,10 @@ spliter = ' ';
 
 function banner(){
   setInterval(function(){
-    //header.innerHTML += randomicnamessliding;
+    //header.innerHTML += randomicnnikssliding;
   }, 1000);
 }
-banner();
+
 function copiarNick(){
   resultText.select();
   document.execCommand('copy');
