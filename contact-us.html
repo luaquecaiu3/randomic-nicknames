@@ -26,37 +26,34 @@
 <!-- CSS Site -->
 <link rel="stylesheet" type="text/css" href="css/padrao.css">
 <link rel="stylesheet" type="text/css" href="css/estilo.css">
-<link rel="stylesheet" href="css/master.css">
 <!-- ========================================================= -->
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
 <!-- jQuery -->
 <script src="js/jquery-2.2.4.min.js"></script>
 <!-- ========================================================= -->
-<title>Contact Us</title>
+<title>MAIN</title>
 <meta name="description" content="Descrição da página"/>
 <!-- ========================================================= -->
 </head>
 <body>
 
-
-
-
   <div class="header_banner" id="header_banner">
 
   </div>
-  <div class="nav_bar">
-      <nav>
-        <ul>
-          <li><a href="index.html">HOME</a></li>
-          <li><a href="select-options-to-random.html">SELECT TO RANDOM</a></li>
-          <li><a href="contact-us.html">CONTACT US</a></li>
-          <li><a href="cute-video.html">CUTE VIDEO</a></li>
-          <li><a href="#">LINK</a></li>
-        </ul>
-      </nav>
+  <div class="nav_bar container-fluid maxwidth2 nopadding">
+    <div class="row">
+      <div class="col-sm-3"><a href="index.html">HOME</a></div>
+      <div class="col-sm-3"><a href="select-options-to-random.html">SELECT TO RANDOM</a></div>
+      <div class="col-sm-3"><a href="contact-us.html">CONTACT US</a></div>
+      <div class="col-sm-3"><a href="cute-video.html">CUTE VIDEO</a></div>
+    </div>
   </div>
-  <div class="display_content">
+
+  <div class="display_content container-fluid maxwidth2">
+    <div class="row">
+      <div class="col-12">
+
     <form class="contact_form" action="php/contat-us.php" method="post">
       <label for="fName">First name:</label><br><input type="text" name="fNAme" placeholder="Your fisrt name" autofocus required minlength="3"><br>
       <label for="lName">Last name:</label><br><input type="text" name="lName" placeholder="Your last name" required minlength="3"><br>
@@ -73,9 +70,15 @@
       <label for="message">Your message:</label><br><textarea name="message" rows="5" cols="50" required minlength="20"></textarea><br>
       <input type="submit" name="submit" value="SUBMIT">
     </form>
+
+
+    </div>
   </div>
+  </div>
+
+
   <div class="footer_bar">
-    lalalalala
+  lalalalala
   </div>
 
 
@@ -87,13 +90,13 @@
 
 
 
-<!-- ========================================================= -->
-<!-- JS CORE -->
-<script src="js/tether.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<!-- CUSTOM JS -->
-<script src="js/placeholder.js"></script>
-<script src="js/functions.js"></script>
-<!-- ========================================================= -->
-</body>
-</html>
+  <!-- ========================================================= -->
+  <!-- JS CORE -->
+  <script src="js/tether.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- CUSTOM JS -->
+  <script src="js/placeholder.js"></script>
+  <script src="js/functions.js"></script>
+  <!-- ========================================================= -->
+  </body>
+  </html>

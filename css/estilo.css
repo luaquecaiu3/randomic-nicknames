@@ -21,6 +21,8 @@ html { height:100%; }
 a{
   color: black;
   text-decoration: none;
+	display:block; 
+width:100%;
 }
 
 a:hover{
@@ -30,7 +32,6 @@ div{
   position: relative;
   text-align: center;
   margin: auto;
-  width: 90%;
   margin-top: 1px;
 padding: 5px;
 /*border: 1px green solid;*/
@@ -42,7 +43,6 @@ padding: 5px;
 
 .nav_bar{
 	min-height: 5%;
-  background-color: rgba(200,200,200,0.5);
 }
 .nav_bar ul{
   list-style-type: none;
@@ -53,9 +53,10 @@ padding: 5px;
 }
 
 .nav_bar a:link, a:visited, .contact_form input[type="submit"]{
-  background-color: rgba(0,0,0,0.0);
+background-color: rgba(200,200,200,0.5);
   margin: 1px;
   border: red;
+	font-size: 20px;
 }
 
 .nav_bar a:hover, .contact_form input[type="submit"]:hover{
@@ -128,7 +129,8 @@ video{
 
 @media (max-width:640px) {
 	.nav_bar a{
-		font-size:12px;
+		margin: 5px 0;
+		padding: 0 10px 0 10px;
 	}
 
 	video{
