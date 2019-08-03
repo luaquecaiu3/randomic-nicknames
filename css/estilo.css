@@ -2,6 +2,13 @@
 /* -- CSS Website -- */
 /* ======================================================= */
 * {padding: 0; margin: 0}
+/* -- maxwidth -- */
+.maxwidth1 { max-width:1100px; }
+.maxwidth2 { max-width:991px; }
+.maxwidth3 { max-width:767px; }
+.maxwidth4 { max-width:575px; }
+.maxwidth5 { max-width:400px; }
+.maxwidth1, .maxwidth2, .maxwidth3, .maxwidth4, .maxwidth5  { margin:0 auto; }
 /* * {transition:all 0.1s linear; -webkit-transition:all 0.1s linear; -o-transition:all 0.1s linear; -moz-transition:all 0.1s linear; }*/
 
 
@@ -24,7 +31,7 @@ div{
   text-align: center;
   margin: auto;
   width: 90%;
-  margin-top: 10px;
+  margin-top: 1px;
 padding: 5px;
 /*border: 1px green solid;*/
 }
