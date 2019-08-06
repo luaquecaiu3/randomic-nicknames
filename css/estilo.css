@@ -21,7 +21,7 @@ html { height:100%; }
 a{
   color: black;
   text-decoration: none;
-	display:block; 
+	display:block;
 width:100%;
 }
 
@@ -101,7 +101,7 @@ td:hover {
 
 .contact_form label, input, textarea, select{
   vertical-align: top;
-text-align-last: center;
+text-align: justify;
 }
 
 .contact_form label {
@@ -116,6 +116,9 @@ text-align-last: center;
 
 video{
 	width: 50%;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 
